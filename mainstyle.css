@@ -1,0 +1,25 @@
+:root{
+    font-size:62.5%;
+    --brown:#4C4848;
+    --grey:hsl(220, 4%, 85%);
+    
+}
+
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+
+
+header {
+    background-color: var(--brown);
+}
+
+
+nav .menu-mobile #trogle-menu{
+    display:block;
+    height:10px;
+    width:50px;
+    background-color: var(--grey);
+}
